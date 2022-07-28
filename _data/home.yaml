@@ -9,6 +9,9 @@ project_entries:
   - title: Software Defined Radio
     url: /projects/radio
     desc: Observing the radio spectrum
+  - title: Laser Experiments
+    url: /projects/lasers
+    desc: Having fun with lasers
 
 old_project_entries:
 
