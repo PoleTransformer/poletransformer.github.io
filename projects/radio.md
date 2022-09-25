@@ -9,6 +9,16 @@ title: Software Defined Radio
     }
 </style>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V763V7LV13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V763V7LV13');
+</script>
+
 Sometime around March of 2022, I watched a video by Samy Kamkar about radio hacking. He was able to unlock vehicles and garage doors using software defined radios connected to a laptop. I was instantly hooked and this was when I started the radio hobby. When I was experimenting around with 433mHz transmitters, I was curious on what other radio transmissions are around us. I know law enforcement and first responders use radios in order to communicate with one another efficiently. I now wanted to listen in and see whats on the radio spectrum.
 \
 \
@@ -51,4 +61,8 @@ With my only SDR in use, I decided to buy two more dongles from the official sel
 I decided to follow a NXDN system in the ISM region at around 410-422MHz. I simply used a female SMA connector and a 1/4 whip antenna(~18cm) to make the antenna. Unfortunately, I live in an area far from the majority of radio communications, so this setup is not ideal, however I am still able to pick up quite a lot of frequencies. I used the program [DSDPlus](https://www.dsdplus.com/). Unfortunately, I had to switch to Windows from Linux because of software issues. All software such as SDRTrunk were not able to decode NXDN systems yet, however DSDPlus is only a Windows program. Using it through Wine is no problem, however the driver side of the program was written in Windows, which makes it unusable even with wine in Linux. There was a bit of configuration needed, however I was able to get all of the information I needed from an online radio database.
 \
 \
-At last I was able to listen and follow conversations from people. The signal strength in my area is not the best, so sometimes I get a couple dropouts. This particular trunking system is shared by quite a few buisinesses. It is used by the security in several hospitals, however I rarely hear conversations from these hospitals. The majority of the conversation comes from local bus and truck drivers. There are also a couple encrypted channels, which are used by a local whale watching buisiness as well as an unknown channel. After figuring out priority settings, I was able to ignore these encrypted channels and only listen to the ones in the clear. This was extremely fun and interesting, I sat and listened for over 3 hours one day.
+At last I was able to listen and follow conversations from people. The signal strength in my area is not the best, so sometimes I get a couple dropouts. This particular trunking system is shared by quite a few buisinesses. It is used by the security in several hospitals, however I rarely hear conversations from these hospitals. The majority of the conversation comes from local bus and truck drivers. There are also a couple encrypted channels, which are used by a local whale watching business as well as an unknown channel. After figuring out priority settings, I was able to ignore these encrypted channels and only listen to the ones in the clear. This was extremely fun and interesting, I sat and listened for over 3 hours one day.
+
+## Project Update September 22, 2022
+
+Over the summer, I spent a couple days receiving weather satellites from space. Specifically, the NOAA and METEOR satellites. These take pictures of the earth using a variety of cameras, then beam these signals to earth with a analog or digital transmission. The NOAA satellites are the easiest to receive because it is an analog signal, the signal can be decoded even with a weaker signal strength. Unfortunately, the METEOR satellites use a digital transmission, which means much higher SNR is required.

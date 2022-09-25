@@ -14,6 +14,16 @@ title: Music with Computer Hardware
   type="text/javascript">
 </script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V763V7LV13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V763V7LV13');
+</script>
+
 \
 Thanks to [Paweł Zadrożniak](https://www.youtube.com/channel/UCximsD7EJ38jzCNgfP_YTmA), [Device Orchestra](https://www.youtube.com/c/DeviceOrchestra), [MrSolidSnake745](https://www.youtube.com/c/MrSolidSnake745), [ArcAttack!](https://www.youtube.com/user/arcattackmusic), [Franzoli Electronics](https://www.youtube.com/c/FranzoliElectronics), and many other smaller creators for inspiration and ideas for this project. This blog may not even have existed if these awesome people didn't exist. Please check out their content and subscribe.
 \
