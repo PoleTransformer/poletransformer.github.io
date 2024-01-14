@@ -4,13 +4,13 @@ navbar_entries:
 
 project_entries:
   - title: Music with Computer Hardware
-    url: /projects/music
+    url: /personal_projects/music
     desc: Making music with stepper motors, floppy drives, and hard drives.
   - title: Software Defined Radio
-    url: /projects/radio
+    url: /personal_projects/radio
     desc: Observing the radio spectrum
   - title: Laser Experiments
-    url: /projects/lasers
+    url: /personal_projects/lasers
     desc: Having fun with lasers
 
 old_project_entries:
@@ -18,11 +18,5 @@ old_project_entries:
 footer_entries:
   - title: YouTube
     url: https://www.youtube.com/channel/UCjpUlGqDMARH1PbmtIqrKFg
-
-  - title: GitHub
-    url: https://github.com/WayneSeng/
-
-  - title: Instagram
-    url: https://www.instagram.com/wayne.seng/
 
 misc_entries:

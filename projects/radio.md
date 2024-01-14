@@ -9,15 +9,6 @@ title: Software Defined Radio
     }
 </style>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V763V7LV13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V763V7LV13');
-</script>
 
 Sometime around March of 2022, I watched a video by Samy Kamkar about radio hacking. He was able to unlock vehicles and garage doors using software defined radios connected to a laptop. I was instantly hooked and this was when I started the radio hobby. When I was experimenting around with 433mHz transmitters, I was curious on what other radio transmissions are around us. I know law enforcement and first responders use radios in order to communicate with one another efficiently. I now wanted to listen in and see whats on the radio spectrum.
 \

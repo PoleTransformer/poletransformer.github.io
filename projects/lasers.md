@@ -9,15 +9,6 @@ title: Laser Experiments
     }
 </style>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V763V7LV13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V763V7LV13');
-</script>
 
 A couple years ago, I watched a video from SmarterEveryDay about using lasers to remotely activate smart home devices. Of course I was immediately interested and wanted to replicate the experiment. I thought I needed lab grade parts to perform this experiment, however modulating a laser with a audio signal can be done easily. For the laser, I decided to use a red laser salvaged from a dvd rewriter. This laser diode was extremely powerful and could set matches on fire, so please be careful around these devices. In order to prevent the laser diode from burning out, I mounted it in a case with focusing ring bought on Aliexpress. I also drilled a hole in a old square heatsink to mount the module for easy focusing and aiming. The power supply was a simple LM317 constant current source. No matter what the voltage was, the power supply will always try to deliver the set current into the device. This also prevents thermal runaway to ensure the laser diode does not burn.
 \
