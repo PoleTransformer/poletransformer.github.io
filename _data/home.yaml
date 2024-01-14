@@ -12,6 +12,9 @@ project_entries:
   - title: Laser Experiments
     url: /personal_projects/lasers
     desc: Having fun with lasers
+  - title: Homelab
+    url: /personal_projects/homelab
+    desc: A never ending journey into the world of self hosting.
 
 old_project_entries:
 
