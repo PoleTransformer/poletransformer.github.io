@@ -2,6 +2,11 @@
 layout: post
 title: Music with Computer Hardware
 ---
+[pawel]: https://vid.spyware.click/channel/UCximsD7EJ38jzCNgfP_YTmA
+[device]: https://vid.spyware.click/c/DeviceOrchestra
+[mrsolid]: https://vid.spyware.click/c/MrSolidSnake745
+[arcattack]: https://vid.spyware.click/user/arcattackmusic
+[franzoli]: https://vid.spyware.click/c/FranzoliElectronics
 
 <style>
     figure {
@@ -14,9 +19,8 @@ title: Music with Computer Hardware
   type="text/javascript">
 </script>
 
-
 \
-Thanks to [Paweł Zadrożniak](https://www.youtube.com/channel/UCximsD7EJ38jzCNgfP_YTmA), [Device Orchestra](https://www.youtube.com/c/DeviceOrchestra), [MrSolidSnake745](https://www.youtube.com/c/MrSolidSnake745), [ArcAttack!](https://www.youtube.com/user/arcattackmusic), [Franzoli Electronics](https://www.youtube.com/c/FranzoliElectronics), and many other smaller creators for inspiration and ideas for this project. This blog may not even have existed if these awesome people didn't exist. Please check out their content and subscribe.
+Thanks to [Paweł Zadrożniak][pawel], [Device Orchestra][device], [MrSolidSnake745][mrsolid], [ArcAttack!][arcattack], [Franzoli Electronics][franzoli], and many other smaller creators for inspiration and ideas for this project. This blog may not even have existed if these awesome people didn't exist. Please check out their content and subscribe.
 \
 \
 Making sounds with stepper motors is nothing new. If you own a 3d printer with no silent stepper driver(A4988), you will already be familiar with this. What if we managed to control the exact frequency of these sounds by pulsing the motors at a specific interval(440 times a second)? This is exactly what is happening and is the fundamental building block to tone generation with any electronic device with a stepper motor.
@@ -31,7 +35,7 @@ We notice 2 pins of interest called Step and Dir. These 2 pins allow direct cont
 \
 Here is a demonstration of 2 floppy drives playing Carra Mia Addio from Portal 2:
 \
-[![Thumbnail](https://i.ytimg.com/vi/mtVKBj7uICo/maxresdefault.jpg)](https://www.youtube.com/watch?v=mtVKBj7uICo&ab_channel=WayneSeng "Carra Mia Addio on Floppy Drives")
+[![Thumbnail](https://i.ytimg.com/vi/mtVKBj7uICo/maxresdefault.jpg)](https://vid.spyware.click/watch?v=mtVKBj7uICo "Carra Mia Addio on Floppy Drives")
 \
 Driving stepper motors follows the exact same concept, although an external driver is used. I chose the A4988. The A4988 also has a Step and Dir pin just like the floppy drive. A stepper motor is different from a standard dc motor because it allows so much more control over the exact position of the motor. This allows it to be used in industrial applications such as robot arms or 3d printers as these motors can be controlled with extreme precision.
 
@@ -89,7 +93,7 @@ void loop() {
 
 Here is a demonstration of a single stepper motor playing Yakety Sax:
 \
-[![Thumbnail](https://i.ytimg.com/vi/IOzDmH98lQA/maxresdefault.jpg)](https://www.youtube.com/watch?v=IOzDmH98lQA&ab_channel=WayneSeng "Yakety Sax on Stepper Motor")
+[![Thumbnail](https://i.ytimg.com/vi/IOzDmH98lQA/maxresdefault.jpg)](https://vid.spyware.click/watch?v=IOzDmH98lQA "Yakety Sax on Stepper Motor")
 
 ## Project Update April 15, 2022
 
