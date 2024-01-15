@@ -4,16 +4,16 @@ navbar_entries:
 
 project_entries:
   - title: Music with Computer Hardware
-    url: /projects/music
+    url: projects/music
     desc: Making music with stepper motors, floppy drives, and hard drives.
   - title: Software Defined Radio
-    url: /projects/radio
+    url: projects/radio
     desc: Observing the radio spectrum
   - title: Laser Experiments
-    url: /projects/lasers
+    url: projects/lasers
     desc: Having fun with lasers
   - title: Homelab
-    url: /projects/homelab
+    url: projects/homelab
     desc: A never ending journey into the world of self hosting.
 
 old_project_entries:
