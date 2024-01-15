@@ -4,16 +4,16 @@ navbar_entries:
 
 project_entries:
   - title: Music with Computer Hardware
-    url: /personal_projects/music
+    url: /projects/music
     desc: Making music with stepper motors, floppy drives, and hard drives.
   - title: Software Defined Radio
-    url: /personal_projects/radio
+    url: /projects/radio
     desc: Observing the radio spectrum
   - title: Laser Experiments
-    url: /personal_projects/lasers
+    url: /projects/lasers
     desc: Having fun with lasers
   - title: Homelab
-    url: /personal_projects/homelab
+    url: /projects/homelab
     desc: A never ending journey into the world of self hosting.
 
 old_project_entries:
@@ -21,5 +21,11 @@ old_project_entries:
 footer_entries:
   - title: YouTube
     url: https://www.youtube.com/channel/UCjpUlGqDMARH1PbmtIqrKFg
+  - title: GitHub
+    url: https://github.com/PoleTransformer
+  - title: Self-Hosted Invidious
+    url: https://vid.spyware.click
+  - title: Self-Hosted SearXNG
+    url: https://search.spyware.click
 
 misc_entries:
