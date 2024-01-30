@@ -3,13 +3,15 @@ layout: post
 title: About
 ---
 
-My name is Wayne Zeng, a university student at Simon Fraser University in the Faculty of Applied Science. Outside of school
+My name is Wayne Zeng, a student at Simon Fraser University in the Faculty of Applied Science. Outside of school
 projects, I work on personal projects that connect to electronics and/or
 programming. I enjoy solving real world problems and making the quality of
 life for those around me easier. I am a dedicated, hard working person
 that will do whatever it takes to understand a concept or to solve a
 problem. Finally, I am a big advocate for right to repair, ensuring less
 e-waste is sent to our landfills.
+
+There are 2 addresses for this blog for redundancy: `projects.spyware.click` and `poletransformer.github.io`.
 
 ## Contact Info(Updated 01/24/24)
 If you wish to use PGP, please verify fingerprint and validity date of any signed emails claiming to be from myself. If any mismatch, assume my email has been compromised.
