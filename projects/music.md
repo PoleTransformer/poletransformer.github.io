@@ -22,7 +22,7 @@ Making sounds with stepper motors is nothing new. If you own a 3d printer with n
 \
 A floppy drive has a stepper motor that moves the read/write head back and forth along the magnetic tape on the floppy drive. Do you remember those noisy devices? What if we could somehow control the speed of the read/write head? Well we are in luck! If we take a look at the pinout of a floppy drive:
 \
-![Floppy Drive Pinout](/images/floppy_pinout.png){:.centered}
+![Floppy Drive Pinout](/images/floppy_pinout.png)
 \
 We notice 2 pins of interest called Step and Dir. These 2 pins allow direct control of the speed and direction of the read/write head. Unfortunately, before we can do anything, the drives must be enabled by pulling the Drive select A or B pin to ground. If the green LED on the front of the drive is on, the drive has been enabled. Now if we connect the step pin to ground, the stepper head moves a bit. By connecting the dir pin to high and ground, we can vary the direction of the read/write head. To power the drives, connect a suitable 5v power supply that can deliver at least 500mA to the +5v and GND on the floppy power connector. A computer ATX power supply with a floppy connector can also be used. A microcontroller interprets MIDI data from a computer and drives the floppy drives accordingly.
 \

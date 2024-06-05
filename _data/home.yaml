@@ -29,5 +29,7 @@ footer_entries:
     url: https://search.spyware.click
   - title: Canary
     url: canary
+  - title: Donate
+    url: donate
 
 misc_entries:
