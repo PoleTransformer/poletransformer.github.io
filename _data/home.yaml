@@ -24,9 +24,9 @@ footer_entries:
   - title: GitHub
     url: https://github.com/PoleTransformer
   - title: Self-Hosted Invidious
-    url: https://vid.spyware.click
+    url: https://vid.ufw.icu
   - title: Self-Hosted SearXNG
-    url: https://search.spyware.click
+    url: https://search.ufw.icu
   - title: Canary
     url: canary
   - title: Donate
