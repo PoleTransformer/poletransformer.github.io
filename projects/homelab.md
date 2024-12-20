@@ -1,9 +1,9 @@
 ---
 layout: post
-name: Homelab
+title: Homelab
 ---
 
-## January 14, 2024
+## The Beginning
 This all started when I found a free laptop while biking. It was a gaming laptop from 2013 with a 3rd generation 4 core Intel processor(with hyperthreading) and 8GB of DDR3 PC3-12800 RAM in a dual channel configuration. The first thing I did was take it apart and clean the insides. This was a while ago, so I don't remember exact details. I only know it was dusty and had dry thermal paste. I used Arctic MX4 and repasted the CPU and GPU. Next, I installed Ubuntu Server 20.04 LTS. Unfortunately, I didn't document everything online, but I will attempt to catch you up on this blog.
 
 ## DIY Router

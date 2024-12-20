@@ -62,21 +62,21 @@ KC6puN8CzvIroIaeqN3h9HNqZf1Esk3FcJGfkdUJCUQ=
 
 Output of `openssl x509 -in fullchain -nocert -fingerprint -text` for the fullchain certificate of `*.ufw.icu`:
 ```
-SHA1 Fingerprint=22:55:9B:8C:A3:7B:10:67:E5:E1:6D:BA:E9:65:74:5E:B9:EE:29:7C #MAKE SURE THIS MATCHES WHEN YOU VISIT ANY OF MY SELF HOSTED SERVICES!!!
+SHA1 Fingerprint=0B:1E:0D:4F:65:84:1D:C3:B8:74:B4:34:DF:C7:06:B5:D9:3D:F9:68
 Certificate:
     Data:
         Version: 3 (0x2)
         Serial Number:
-            04:71:68:6a:dd:d9:d8:71:43:69:4c:5b:fc:f9:21:ff:ac:07 #AND THIS TOO!!!
+            04:fc:42:95:3b:14:74:aa:03:2c:88:01:0a:1f:65:b5:e8:07
         Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C=US, O=Let's Encrypt, CN=R10
+        Issuer: C = US, O = Let's Encrypt, CN = R10
         Validity
-            Not Before: Aug  1 14:15:27 2024 GMT
-            Not After : Oct 30 14:15:26 2024 GMT
-        Subject: CN=*.ufw.icu
+            Not Before: Oct 30 21:12:39 2024 GMT
+            Not After : Jan 28 21:12:38 2025 GMT
+        Subject: CN = *.ufw.icu
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                Public-Key: (4096 bit)
+                RSA Public-Key: (4096 bit)
                 Modulus:
                     00:99:79:f1:9b:d3:eb:c1:93:68:0b:e1:2b:46:26:
                     36:dc:26:32:b2:f5:47:d5:47:4c:51:44:88:ca:ff:
@@ -124,54 +124,56 @@ Certificate:
             X509v3 Subject Key Identifier: 
                 16:A6:3F:ED:54:CC:71:7D:1B:00:A6:C2:0F:84:85:A9:3B:3A:95:35
             X509v3 Authority Key Identifier: 
-                BB:BC:C3:47:A5:E4:BC:A9:C6:C3:A4:72:0C:10:8D:A2:35:E1:C8:E8
+                keyid:BB:BC:C3:47:A5:E4:BC:A9:C6:C3:A4:72:0C:10:8D:A2:35:E1:C8:E8
+
             Authority Information Access: 
                 OCSP - URI:http://r10.o.lencr.org
                 CA Issuers - URI:http://r10.i.lencr.org/
+
             X509v3 Subject Alternative Name: 
                 DNS:*.ufw.icu
             X509v3 Certificate Policies: 
                 Policy: 2.23.140.1.2.1
+
             CT Precertificate SCTs: 
                 Signed Certificate Timestamp:
                     Version   : v1 (0x0)
-                    Log ID    : 19:98:10:71:09:F0:D6:52:2E:30:80:D2:9E:3F:64:BB:
-                                83:6E:28:CC:F9:0F:52:8E:EE:DF:CE:4A:3F:16:B4:CA
-                    Timestamp : Aug  1 15:15:27.935 2024 GMT
+                    Log ID    : A2:E3:0A:E4:45:EF:BD:AD:9B:7E:38:ED:47:67:77:53:
+                                D7:82:5B:84:94:D7:2B:5E:1B:2C:C4:B9:50:A4:47:E7
+                    Timestamp : Oct 30 22:11:09.673 2024 GMT
                     Extensions: none
                     Signature : ecdsa-with-SHA256
-                                30:44:02:20:04:24:CF:D3:FA:F9:3B:79:AD:44:02:FF:
-                                C4:4F:40:8C:E7:88:01:8E:6D:7E:54:8F:46:DC:3B:2F:
-                                90:A2:7C:F0:02:20:3D:3F:EB:01:3C:04:A9:20:0C:FA:
-                                58:28:49:63:F2:E0:0E:60:30:39:4A:AF:98:A8:3D:55:
-                                9B:DB:0C:1F:DB:06
+                                30:44:02:20:6D:AF:42:0F:B2:CF:A3:31:8A:43:8C:4C:
+                                CD:C6:00:02:90:3B:13:B1:A8:7A:08:3F:C2:D9:A6:D9:
+                                B9:87:E0:05:02:20:14:98:2C:9E:D1:56:DA:8F:0D:AF:
+                                1B:A6:03:0D:6B:4A:3A:E6:20:9C:8E:2F:04:35:9D:6B:
+                                92:8E:11:30:BE:D7
                 Signed Certificate Timestamp:
                     Version   : v1 (0x0)
-                    Log ID    : EE:CD:D0:64:D5:DB:1A:CE:C5:5C:B7:9D:B4:CD:13:A2:
-                                32:87:46:7C:BC:EC:DE:C3:51:48:59:46:71:1F:B5:9B
-                    Timestamp : Aug  1 15:15:27.940 2024 GMT
+                    Log ID    : E0:92:B3:FC:0C:1D:C8:E7:68:36:1F:DE:61:B9:96:4D:
+                                0A:52:78:19:8A:72:D6:72:C4:B0:4D:A5:6D:6F:54:04
+                    Timestamp : Oct 30 22:11:09.752 2024 GMT
                     Extensions: none
                     Signature : ecdsa-with-SHA256
-                                30:44:02:20:2B:06:16:8F:12:0A:F2:47:92:29:6A:37:
-                                6D:6B:0B:12:78:60:40:4B:7C:BD:4F:8D:D4:D6:0E:DE:
-                                E7:7B:14:2D:02:20:62:84:89:77:AE:49:1F:11:4B:2C:
-                                42:98:7D:53:2C:A8:13:52:8B:18:36:9C:B9:6F:93:9E:
-                                61:4F:D1:25:15:9A
+                                30:44:02:20:5D:D6:17:56:88:6A:CF:D7:46:77:FC:62:
+                                E0:8E:92:0A:DC:54:41:5D:D5:02:00:84:55:84:E0:80:
+                                C3:D4:F0:FD:02:20:3F:8E:97:4E:26:69:6F:F5:5D:F0:
+                                C0:44:B4:4F:56:A1:EF:94:8B:17:3E:5C:40:40:80:18:
+                                CB:27:08:42:7A:27
     Signature Algorithm: sha256WithRSAEncryption
-    Signature Value:
-        bd:cf:85:e1:17:71:b0:c5:1b:d4:95:d7:9b:0a:72:11:9b:92:
-        e1:0c:70:5f:b7:a9:81:a5:38:8b:41:69:27:69:4a:3a:6c:f8:
-        34:bc:39:21:20:8a:9f:dc:9d:d6:73:8b:29:c5:59:b7:3f:41:
-        df:6a:dc:13:b3:a1:f6:6d:da:10:41:e4:8d:bf:05:7c:4d:e7:
-        be:78:14:60:2d:82:9e:50:e3:e8:b2:ac:e0:23:bd:5e:3c:1e:
-        a4:09:83:89:c3:fb:aa:43:0b:43:98:89:5d:65:1b:57:ea:a2:
-        43:55:6a:71:88:6a:aa:e6:bf:d7:06:78:b9:9b:04:0c:01:5f:
-        a2:7f:b3:40:ee:27:9b:17:57:28:e4:07:c1:dc:a7:9c:97:6d:
-        a3:61:0d:90:63:f9:88:59:75:b2:93:87:05:dc:73:98:ce:a2:
-        4d:9e:00:10:de:19:e4:51:27:0a:1d:3d:4b:60:58:e1:6d:e9:
-        95:04:5c:1a:05:be:d2:da:76:3b:a6:fb:64:c0:7b:2d:b4:9d:
-        91:1e:3a:54:dd:60:74:0f:2d:55:e8:6b:df:58:c2:da:8f:af:
-        98:a1:24:cf:7e:bb:46:40:65:6b:8f:99:8a:b4:64:fc:aa:1b:
-        af:9a:58:f1:09:77:1c:70:78:a4:d7:c8:2d:de:c5:ec:5b:3b:
-        2b:a9:b4:b4
+         5d:6e:e8:0e:16:9e:84:9d:e2:33:fb:df:75:85:42:ee:ff:b9:
+         5e:0c:19:8f:5e:d2:e5:c4:8e:89:51:db:f2:ef:ae:4b:50:41:
+         6e:d3:45:40:48:7f:51:ee:c8:0f:d6:48:fc:84:5a:99:88:a3:
+         97:b9:ae:5a:d2:e2:25:0b:7c:df:54:b0:79:40:a6:07:ad:53:
+         7c:53:90:0a:cc:b8:6f:c5:3e:55:99:86:24:11:46:88:3a:65:
+         38:f1:24:b2:0a:af:55:8f:be:61:ff:5f:8c:13:0e:6a:17:33:
+         f5:44:32:54:eb:f4:f7:26:24:20:56:72:30:04:47:af:d4:31:
+         f6:4b:ec:75:28:15:c2:21:6c:6c:81:c3:f1:f1:1d:32:93:d6:
+         11:3c:27:9d:9d:ef:34:b6:1a:15:99:7b:5e:e4:4a:c9:b6:b0:
+         84:ee:81:b2:4a:7a:c3:72:81:03:2e:3e:34:ac:cb:cf:64:aa:
+         7b:1c:25:99:6e:48:f6:b1:7d:33:35:b9:20:3b:dc:38:e6:38:
+         fd:2b:c7:c8:22:80:a5:2b:e1:01:ad:2b:ae:e2:0e:93:d5:38:
+         f9:8a:ca:d9:16:49:df:4f:55:91:c5:c9:7d:0d:9f:4e:72:e6:
+         40:63:e5:35:f9:cc:dc:b8:5c:51:4c:12:63:98:e3:48:5a:cf:
+         70:60:db:68
 ```

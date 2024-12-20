@@ -2,11 +2,11 @@
 layout: post
 title: Music with Computer Hardware
 ---
-[pawel]: https://vid.spyware.click/channel/UCximsD7EJ38jzCNgfP_YTmA
-[device]: https://vid.spyware.click/c/DeviceOrchestra
-[mrsolid]: https://vid.spyware.click/c/MrSolidSnake745
-[arcattack]: https://vid.spyware.click/user/arcattackmusic
-[franzoli]: https://vid.spyware.click/c/FranzoliElectronics
+[pawel]: https://inv.nadeko.net/channel/UCximsD7EJ38jzCNgfP_YTmA
+[device]: https://inv.nadeko.net/c/DeviceOrchestra
+[mrsolid]: https://inv.nadeko.net/c/MrSolidSnake745
+[arcattack]: https://inv.nadeko.net/user/arcattackmusic
+[franzoli]: https://inv.nadeko.net/c/FranzoliElectronics
 
 <script
   src="/local_js/mathjax.js"
@@ -29,7 +29,7 @@ We notice 2 pins of interest called Step and Dir. These 2 pins allow direct cont
 \
 Here is a demonstration of 2 floppy drives playing Carra Mia Addio from Portal 2:
 \
-[![Thumbnail](/images/carra_mia.jpg)](https://vid.spyware.click/watch?v=mtVKBj7uICo "Carra Mia Addio on Floppy Drives")
+[![Thumbnail](/images/carra_mia.jpg)](https://inv.nadeko.net/watch?v=mtVKBj7uICo "Carra Mia Addio on Floppy Drives")
 \
 Driving stepper motors follows the exact same concept, although an external driver is used. I chose the A4988. The A4988 also has a Step and Dir pin just like the floppy drive. A stepper motor is different from a standard dc motor because it allows so much more control over the exact position of the motor. This allows it to be used in industrial applications such as robot arms or 3d printers as these motors can be controlled with extreme precision.
 
@@ -90,7 +90,7 @@ void loop() {
 
 Here is a demonstration of a single stepper motor playing Yakety Sax:
 \
-[![Thumbnail](/images/yakety.jpg)](https://vid.spyware.click/watch?v=IOzDmH98lQA "Yakety Sax on Stepper Motor")
+[![Thumbnail](/images/yakety.jpg)](https://inv.nadeko.net/watch?v=IOzDmH98lQA "Yakety Sax on Stepper Motor")
 
 ## Project Update April 15, 2022
 
