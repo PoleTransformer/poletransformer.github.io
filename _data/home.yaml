@@ -6,6 +6,9 @@ project_entries:
   - title: UPS Experiments
     url: projects/UPS
     desc: Upgrading a free UPS I found
+  - title: Proxies
+    url: projects/proxy
+    desc: Running Tor relays and proxy servers to bypass censorship
 
 old_project_entries:
   - title: Music with Computer Hardware
