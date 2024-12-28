@@ -10,7 +10,7 @@ The first step is to pick a server that is outside of the censored region for ob
 
 <div style="text-align: center;">
     <figure style="display: inline-block;">
-        <img src="https://2019.www.torproject.org/images/htw2.png" width="600"/>
+        <img src="/images/tor.png" width="600"/>
         <figcaption>Traffic flow through TOR</figcaption>
     </figure>
 </div>
