@@ -37,5 +37,7 @@ footer_entries:
     url: canary
   - title: Donate
     url: donate
+  - title: Macless Haystack
+    url: projects/macless_haystack
 
 misc_entries:
