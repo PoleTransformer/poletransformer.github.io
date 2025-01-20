@@ -3,14 +3,20 @@ navbar_entries:
     url: about
 
 project_entries:
-  - title: UPS Experiments
-    url: projects/UPS
-    desc: Upgrading a free UPS I found
+  - title: Homelab
+    url: projects/homelab
+    desc: Rants about networking, Wi-Fi, security, NAT, whatever I feel like doing
   - title: Proxies
     url: projects/proxy
     desc: Running Tor relays and proxy servers to bypass censorship
+  - title: NRF52
+    url: projects/nrf52
+    desc: Learning a new microcontroller from scratch
 
 old_project_entries:
+  - title: UPS Experiments
+    url: projects/UPS
+    desc: Upgrading a free UPS I found
   - title: Music with Computer Hardware
     url: projects/music
     desc: Making music with stepper motors, floppy drives, and hard drives.
@@ -20,9 +26,6 @@ old_project_entries:
   - title: Laser Experiments
     url: projects/lasers
     desc: Having fun with lasers
-  - title: DIY Router
-    url: projects/homelab
-    desc: Replacing my ISP Crap
 
 footer_entries:
   - title: YouTube
